@@ -2,7 +2,7 @@
 
 echo "Iniciando envio automático...\n";
 
-$token = 'b5e584ab-ca30-4adb-98bf-a9b9a39f2fa8';
+$token = ''; //Colocar Seu Token Do BotConverse.
 
 // Conexão com o banco
 $pdo = new PDO("mysql:host=192.168.0.246;dbname=automatizacao", "admin", "admin");
